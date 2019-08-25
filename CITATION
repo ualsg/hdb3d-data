@@ -1,0 +1,10 @@
+Terms of use: if using the data, please mention the following data sources: NUS Urban Analytics Lab, HDB Singapore, OpenStreetMap contributors, and OneMap. If you are using it for a nice publication, please cite the following paper:
+@article{ceus_inferring_heights,
+    author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
+    title = {{Generating 3D city models without elevation data}},
+    journal = {Computers, Environment and Urban Systems},
+    year = {2017},
+    volume = {64},
+    pages = {1--18},
+    month = jul
+}
