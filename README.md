@@ -24,7 +24,7 @@ If you are using it for a nice publication, please cite the following paper:
 
 ## Code
 
-The code to generate the dataset is available in the [other Github repo](https://github.com/ualsg/hdb3d-code).
+The code to generate the dataset is available on the [other Github repo](https://github.com/ualsg/hdb3d-code).
 
 
 ## Dataset
@@ -36,10 +36,14 @@ The dataset is available in the repository in two formats:
 
 The current version of the dataset was generated on 2019-08-25.
 
-For viewing the CityJSON data we recommend [azul or the web browser](https://www.cityjson.org/software/#viewers).
+For viewing the CityJSON data we recommend [azul, the QGIS CityJSON plugin, or the web browser](https://www.cityjson.org/software/#viewers).
 In azul you will be able to see the attributes:
 
 ![The dataset in azul](azul-hdb.png)
+
+You can also use [Mapbox](https://www.mapbox.com):
+
+![The dataset in Mapbox](hdb3d-mapbox.png)
 
 
 ### Metadata
