@@ -71,7 +71,7 @@ The list of the usual attributes is as follows:
 | osm_addr_city | [Various address information](https://wiki.openstreetmap.org/wiki/Key:addr) | `Singapore` |
 | osm_residential | A general tag for additional information | `HDB` |
 | ... | ... |  |
-| hdb_blk_no | HDB block number | `95 B` |
+| hdb_blk_no | HDB block number | `95B` |
 | hdb_street | Street name | `HENDERSON ROAD` |
 | hdb_residential | Residential building (Boolean) | `Y` |
 | hdb_year_completed | Year of completion | `2018` |
