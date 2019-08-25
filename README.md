@@ -9,7 +9,8 @@ Urban Analytics Lab, National University of Singapore
 If using the data, please mention the following data sources: NUS Urban Analytics Lab, HDB Singapore, OpenStreetMap contributors, and OneMap.
 If you are using it for a nice publication, please cite the following paper:
 
-```@article{ceus_inferring_heights,
+```
+@article{ceus_inferring_heights,
     author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
     title = {{Generating 3D city models without elevation data}},
     journal = {Computers, Environment and Urban Systems},
@@ -36,6 +37,7 @@ The dataset is available in the repository in two formats:
 The current version of the dataset was generated on 2019-08-25.
 
 For viewing the CityJSON data we recommend [azul or the web browser](https://www.cityjson.org/software/#viewers).
+In azul you will be able to see the attributes:
 
 ![The dataset in azul](azul-hdb.png)
 
@@ -48,13 +50,14 @@ For viewing the CityJSON data we recommend [azul or the web browser](https://www
 | Coordinate system | SVY21 / Singapore TM ([EPSG:3414](https://epsg.io/3414)) |
 | Unit | m |
 | Number of buildings   | 12119   |
+| Level of Detail   | 1.2 |
 | geographicalExtent |  [11474, 28055, 0, 45327, 48759, 142] |
 | geographicLocation | Singapore, Republic of Singapore |
 | Dataset version | 2019-08-25 |
 | OSM input data version | 2019-07-18 |
 | HDB input data version | 2019-07-05 |
 
-
+The dataset is semantically quite rich.
 The attributes from OpenStreetMap are prefixed with `osm_`, while the ones from the HDB dataset are prefixed with `hdb_`.
 Please note that some information are duplicated in both datasets.
 We have included both sets of information just in case.
@@ -64,25 +67,25 @@ The list of the usual attributes is as follows:
 | --- | --- | --- |
 | osm_id | ID of the geometry in OpenStreetMap | `way/440545194` |
 | osm_timestamp | Time of update of the 2D geometry in OSM | `2016-09-04T05:06:21` |
-| osm_version | Version | `1` |
 | osm_building | General tag for buildings | `residential` |
 | osm_addr_city | [Various address information](https://wiki.openstreetmap.org/wiki/Key:addr) | `Singapore` |
 | osm_residential | A general tag for additional information | `HDB` |
-| ... | ... | `...` |
-| hdb_blk_no | HDB Block number | `95 B` |
+| ... | ... |  |
+| hdb_blk_no | HDB block number | `95 B` |
 | hdb_street | Street name | `HENDERSON ROAD` |
 | hdb_residential | Residential building (Boolean) | `Y` |
 | hdb_year_completed | Year of completion | `2018` |
 | hdb_bldg_contract_town | Town | `BM` |
 | hdb_total_dwelling_units | Number of units | `286` | 
-| ... | ... | `...` |
-| height | Estimated height | `113.3` |
+| hdb_4room_sold | Number of 4-room sold flats | `104` |
+| ... | ... |  |
+| height | Estimated height in m | `113.3` |
 
 For the metadata sourced from the [HDB Property Information](https://data.gov.sg/dataset/hdb-property-information) you may want to check the information found in the original dataset.
 For OSM metadata, there is also a [dedicated page](https://wiki.openstreetmap.org/wiki/Key:building).
 
 The dataset includes all types of HDB buildings, incl. commercial and carparks.
-There are around 12 thousand buildings:
+There are around 12 thousand HDB buildings in Singapore:
 
 ![](hdb3d-c3_att.png)
 
@@ -90,7 +93,7 @@ There are around 12 thousand buildings:
 
 #### Multipolygons
 
-A few OSM features are modelled as MultyPolygon. Only the first Polygon is taken into account.
+A few OSM features are modelled as `MultyPolygon`. Only the first `Polygon` is taken into account.
 
 #### Overlapping polygons
 
@@ -115,7 +118,6 @@ A direction for future work is to include a digital terrain model.
 #### Other buildings
 
 This dataset does not contain all buildings in Singapore.
-
 While OSM has an excellent coverage of Singapore, we don't have access to open data that would hint at heights of non-HDB buildings, and commercial objects, thus not much we can do about this for the time being.
 
 
@@ -123,4 +125,5 @@ While OSM has an excellent coverage of Singapore, we don't have access to open d
 
 We haven't done a quality control since there is no ground truth data we can use.
 
-Please note that this is work in progress.
+Please note that this project is work in progress.
+Contributors are welcome.
