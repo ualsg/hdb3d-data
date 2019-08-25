@@ -2,7 +2,7 @@
 
 Urban Analytics Lab, National University of Singapore
 
-![](hdb3d-c1_att.png)
+![](_images/hdb3d-c1_att.png)
 
 ## Terms of use
 
@@ -41,11 +41,11 @@ For the full list of software check the [official page](https://www.cityjson.org
 
 In azul you will be able to see the attributes:
 
-![The dataset in azul](azul-hdb.png)
+![The dataset in azul](_images/azul-hdb.png)
 
 You can also use [Mapbox](https://www.mapbox.com):
 
-![The dataset in Mapbox](hdb3d-mapbox.png)
+![The dataset in Mapbox](_images/hdb3d-mapbox.png)
 
 
 ### Metadata
@@ -93,7 +93,7 @@ For OSM metadata, there is also a [dedicated page](https://wiki.openstreetmap.or
 The dataset includes all types of HDB buildings, incl. commercial and carparks.
 There are around 12 thousand HDB buildings in Singapore:
 
-![](hdb3d-c3_att.png)
+![](_images/hdb3d-c3_att.png)
 
 ### Known issues
 
