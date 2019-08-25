@@ -36,7 +36,9 @@ The dataset is available in the repository in two formats:
 
 The current version of the dataset was generated on 2019-08-25.
 
-For viewing the CityJSON data we recommend [azul, the QGIS CityJSON plugin, or the web browser](https://www.cityjson.org/software/#viewers).
+For viewing the CityJSON data we recommend [azul](https://itunes.apple.com/nl/app/azul/id1173239678?mt=12), the [CityJSON QGIS plugin](https://github.com/tudelft3d/cityjson-qgis-plugin), or the [web-viewer](https://viewer.cityjson.org/).
+For the full list of software check the [official page](https://www.cityjson.org/software/).
+
 In azul you will be able to see the attributes:
 
 ![The dataset in azul](azul-hdb.png)
