@@ -133,3 +133,7 @@ We haven't done a quality control since there is no ground truth data we can use
 
 Please note that this project is work in progress.
 Contributors are welcome.
+
+## Further reading
+
+You may also want to read more about the project at our [group's website](https://ual.sg/post/2019/08/25/release-of-3d-building-open-data-of-hdbs-in-singapore/).
