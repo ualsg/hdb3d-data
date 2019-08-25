@@ -6,5 +6,6 @@ Terms of use: if using the data, please mention the following data sources: NUS 
     year = {2017},
     volume = {64},
     pages = {1--18},
-    month = jul
+    month = jul,
+    doi = {10.1016/j.compenvurbsys.2017.01.001}
 }

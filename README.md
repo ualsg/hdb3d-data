@@ -17,7 +17,8 @@ If you are using it for a nice publication, please cite the following paper:
     year = {2017},
     volume = {64},
     pages = {1--18},
-    month = jul
+    month = jul,
+    doi = {10.1016/j.compenvurbsys.2017.01.001}
 }
 ```
 
