@@ -98,6 +98,8 @@ There are around 12 thousand HDB buildings in Singapore:
 
 ### Known issues
 
+This is an early work in progress and there are some issues.
+
 #### Multipolygons
 
 A few OSM features are modelled as `MultyPolygon`. Only the first `Polygon` is taken into account.
@@ -109,6 +111,8 @@ Some buildings (mostly carparks) slightly overlap with residential blocks becaus
 #### Wrong polygon
 
 Some buildings have been associated wrongly to a different OSM feature due to the discrepancies encountered in geocoding.
+That also means that unfortunately in some instances different buildings point out at the same polygon, resulting in duplication.
+We will try to fix that.
 
 #### Missing buildings
 
