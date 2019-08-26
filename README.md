@@ -7,7 +7,7 @@ Urban Analytics Lab, National University of Singapore
 ## Terms of use
 
 If using the data, please mention the following data sources: NUS Urban Analytics Lab, HDB Singapore, OpenStreetMap contributors, and OneMap.
-If you are using it for a nice publication, please cite the following paper:
+If you are using it for a nice publication, please cite the following [paper](https://doi.org/10.1016/j.compenvurbsys.2017.01.001):
 
 ```
 @article{ceus_inferring_heights,
