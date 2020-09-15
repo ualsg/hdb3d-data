@@ -7,18 +7,17 @@ Urban Analytics Lab, National University of Singapore
 ## Terms of use
 
 If using the data, please mention the following data sources: NUS Urban Analytics Lab, HDB Singapore, OpenStreetMap contributors, and OneMap.
-If you are using it for a nice publication, please cite the following [paper](https://doi.org/10.1016/j.compenvurbsys.2017.01.001):
+If you are using it for a nice publication, please cite the following [paper](https://doi.org/10.5194/isprs-annals-vi-4-w1-2020-37-2020):
 
 ```
-@article{ceus_inferring_heights,
-    author = {Biljecki, Filip and Ledoux, Hugo and Stoter, Jantien},
-    title = {{Generating 3D city models without elevation data}},
-    journal = {Computers, Environment and Urban Systems},
-    year = {2017},
-    volume = {64},
-    pages = {1--18},
-    month = jul,
-    doi = {10.1016/j.compenvurbsys.2017.01.001}
+@article{2020_3dgeoinfo_3d_asean,
+ author = {Biljecki, F.},
+ doi = {10.5194/isprs-annals-vi-4-w1-2020-37-2020},
+ journal = {ISPRS Annals of Photogrammetry, Remote Sensing and Spatial Information Sciences},
+ pages = {37--44},
+ title = {Exploration of open data in Southeast Asia to generate 3D building models},
+ volume = {VI-4/W1-2020},
+ year = {2020}
 }
 ```
 
